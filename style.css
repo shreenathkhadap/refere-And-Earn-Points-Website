@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: poppins;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #30475e;
+  color: white;
+  padding: 20px 0;
+}
+
+header nav a{
+  color: white;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+header div.sign-in-up button{
+  background-color: #75cfb8;
+  font-size: 16px;
+  font-weight: 550;
+  padding: 4px 12px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  outline: none;
+  margin-left: 20px;
+}
+
+header div.sign-in-up button:last-child{
+  background-color: #fa9579;
+}
+
+div.popup-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+
+div.popup-container div.popup{
+  background-color: #f0f0f0;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px 25px 30px 25px;
+}
+
+div.popup-container div.popup h2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  color: #30475e;
+}
+
+div.popup-container div.popup h2 button{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 18px;
+  font-weight: 550;
+  color: #797775;
+}
+
+div.popup-container div.popup input{
+  width: 100%;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #30475e;
+  border-radius: 0;
+  padding: 5px 0;
+  font-weight: 550;
+  font-size: 14px;
+  outline: none;
+}
+div.popup-container div.popup button.login-btn,div.popup-container div.register button.register-btn{
+  font-weight: 550;
+  font-style: 15px;
+  color: white;
+  background-color: #30475e;
+  padding: 4px 10px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+}
+
+div.popup-container div.register{
+  background-color: #edeef7;
+}
+
+div.popup-container div.register h2{
+  color: #fa9579;
+}
+
+div.popup-container div.register input{
+  border-bottom-color: #fa9579;
+}
+
+div.popup-container div.register button.register-btn{
+  background-color: #fa9579;
+}
+
+div.user{
+  color: #30475e;
+  background-color: #75cfb8;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+div.user a{
+  color: #30475e;
+}
+
+h3.box{
+  background-color: lightseagreen;
+  width: 700px;
+  font-weight: 600;
+  margin: 0 auto;
+  padding: 8px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h3.box a{
+  color: black;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+h2{
+  padding-top: 1.5rem;
+}
+a{
+  color: #333;
+}
+a:hover{
+  color: #da5767;
+  text-decoration: none;
+}
+.card{
+  border: 0.40rem solid #f8f9fa;
+  top: 10%;
+}
+.form-control{
+  background-color: #f8f9fa;
+  padding: 20px;
+  padding: 25px 15px;
+  margin-bottom: 1.3rem;
+}
+
+.form-control:focus {
+
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #da5767;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn{
+  padding: 0.6rem 1.2rem;
+  background: #da5767;
+  border: 2px solid #da5767;
+}
+.btn-primary:hover {
+
+    
+    background-color: #df8c96;
+    border-color: #df8c96;
+  transition: .3s;
+
+}
+
+
+
